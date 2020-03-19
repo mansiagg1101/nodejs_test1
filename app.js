@@ -1,1 +1,1 @@
-console.log("Hello from Node.js 10 through pipeline!test2")
+console.log("Hello from Node.js 10 through pipeline!test3")
