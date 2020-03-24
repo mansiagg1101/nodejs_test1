@@ -5,11 +5,19 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T20:35:20.404230
+    commit.image.appsody.dev/author: mansiagg1101 <mansi.agarwal@Mansis-MacBook-Pro.local>
+    commit.image.appsody.dev/committer: mansiagg1101 <mansi.agarwal@Mansis-MacBook-Pro.local>
+    commit.image.appsody.dev/date: Thu Mar 19 18:49:48 2020 -0500
+    commit.image.appsody.dev/message: first test3
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-03-19T17:48:13-05:00"
+    image.opencontainers.org/created: "2020-03-24T13:05:59-05:00"
+    image.opencontainers.org/documentation: https://github.com/mansiagg1101/nodejs_test1
+    image.opencontainers.org/revision: 6b13cea74aa0a8c69df6f77211c701888f7a5d26-modified
+    image.opencontainers.org/source: https://github.com/mansiagg1101/nodejs_test1/tree/master
+    image.opencontainers.org/url: https://github.com/mansiagg1101/nodejs_test1
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -46,7 +54,7 @@ metadata:
     image.opencontainers.org/title: appsody-sample-nodejs
     stack.appsody.dev/version: 0.2.6
   name: appsody-sample-nodejs
-  namespace: ma-kabanero-nodejs
+  namespace: ma-nodejs
 spec:
   applicationImage: dev.local/appsody-sample-nodejs
   createKnativeService: false
